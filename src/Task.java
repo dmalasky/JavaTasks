@@ -1,4 +1,5 @@
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 
 public class Task {
     private LocalTime startTime;
@@ -43,7 +44,14 @@ public class Task {
         this.taskName = taskName;
     }
 
+    // Creates a format to save the tasks into a file.
+    public String TaskSaveFormat(){
 
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
+        String startTimeString = startTime.format(formatter);
+        String endTimeString = endTime.format(formatter);
 
+        return startTimeString + "," + endTimeString + "," + taskName + "," + taskDesc + "\n";
+    }
 
 }
