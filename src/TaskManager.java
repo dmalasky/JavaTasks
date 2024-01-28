@@ -72,6 +72,7 @@ public class TaskManager {
         for (Task task : tasks)
         {
             System.out.println(count + ". " + task.getTaskName());
+            count++;
         }
     }
 
