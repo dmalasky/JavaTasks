@@ -4,8 +4,6 @@ The purpose of this project is to learn java using the IntelliJ IDE
 
 This program allows the user to record, display, remove, save, and load tasks for a single day.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
 [Software Demo Video](https://youtu.be/Ked0FO8NcGg)
 
 # Development Environment
